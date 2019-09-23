@@ -1,3 +1,8 @@
+# IDES
+.idea
+.c9
+.vscode
+
 # Logs
 logs
 *.log
