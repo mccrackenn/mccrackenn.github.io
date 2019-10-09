@@ -28,3 +28,7 @@ h2 {
 #new-font {
     font-family: fantasy, cursive, serif;
 }
+
+img {
+    border: 5px solid black;
+}
