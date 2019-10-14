@@ -13,6 +13,7 @@ h1 {
 	transform: skew(20deg);
     background: rgb(35, 54, 90);
     }
+
 h2 {
     color: green;
     font-size: 20px;
@@ -22,9 +23,21 @@ header p {
     color: orangered;
     text-transform: uppercase;
     font-style: italic;
-    
-    
 
+}
+main {
+    background-color: coral;
+}
+footer {
+    background-color:lightskyblue;
+    border: black solid thin;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+figure.left {
+    
+    float: left;
+    
 }
             
 .red-heading {
