@@ -33,6 +33,7 @@ footer {
     border: black solid thin;
     padding-left: 8px;
     border-radius: 8px;
+    
 }
 figure.left {
     
@@ -54,4 +55,7 @@ figure.left {
 
 img {
     border: 5px solid black;
+}
+figure.brew {
+    
 }
