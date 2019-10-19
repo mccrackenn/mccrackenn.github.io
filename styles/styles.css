@@ -52,10 +52,18 @@ figure.left {
 #new-font {
     font-family: fantasy, cursive, serif;
 }
+img.sunset{
+    height: 700px;
+    width: 600px;
+}
+img.brew{
+    height: 700px;
+    width: 600px;
+}
 
 img {
     border: 5px solid black;
 }
-figure.brew {
-    
+p.beer pic{
+    position: top;
 }
