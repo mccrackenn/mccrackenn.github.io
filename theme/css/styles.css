@@ -1,0 +1,38 @@
+body{
+    background-color:olivedrab;
+}
+
+header p {
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.byline {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+      
+figure.border {
+    background-color: lightslategray;
+    border: black solid thin;
+    padding: 5px;
+}    
+figure.right {
+    float:right;
+}
+
+footer {
+    background-color: sandybrown;
+    text-align: left;
+    border-radius: 8px;
+    height: 200px;
+}
+
+img.icon{
+    height: 100px;
+    width:100px;
+}
