@@ -87,3 +87,30 @@ img {
 p.beer pic{
     position: top;
 }
+.btn-left-pad {
+    padding-left: 25px;                   
+}
+
+.btn-right-pad {
+padding-right: 25px;
+}
+/*
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 8px;
+}
+*/
+.btn-padding {
+ 
+    border: 10px blue double;
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}                   
+.btn-margin-padding:active {
+    color: red;
+    margin: 25px;
+}           
