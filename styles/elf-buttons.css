@@ -1,0 +1,52 @@
+body {
+    background-color: cornflowerblue;
+    max-width: 700px;
+    margin:auto;
+}
+.btn-left-pad {
+    padding-left: 25px;                   
+}
+
+.btn-right-pad {
+padding-right: 25px;
+}
+/*
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 8px;
+}
+*/
+.btn-padding {
+ 
+    border: 10px blue double;
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}                   
+.btn-margin-padding {
+    padding-left:15px;
+    padding-right:15px;
+    margin: 5px;
+    border:5px white solid;
+}           
+#button-wrapper{
+    background-color: black;
+    border:10px cornflowerblue double;
+    display: inline-block;
+}
+.btn-margin-padding:active {
+    color: red;
+}                    
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
