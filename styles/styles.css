@@ -60,6 +60,7 @@ figure.left {
 }
 section.clear{
     clear: both;
+    overflow: hidden
 }          
 .red-heading {
     color: red;
