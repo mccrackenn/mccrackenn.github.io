@@ -10,16 +10,23 @@ body {
 .btn-right-pad {
 padding-right: 25px;
 }
-/*
+
 .btn-padding {
     padding: 25px;
-    border: 10px green double;    
+    border: 5px black solid;    
     border-radius: 8px;
+    float:left;
 }
-*/
-.btn-padding {
+
+.elf-div-border {
  
-    border: 10px blue double;
+    border: 1px black solid;
+    width: 200px;
+    text-align: center;
+    
+    
+    
+    
 }
 
 .btn-padding:hover {
@@ -49,4 +56,19 @@ aside {
     margin-right: 5px;
     padding: 8px;
     width: 33%;        
+}
+ul{
+    border: 25px silver ridge;
+    padding:1px;
+    margin: 1px;
+    list-style-type:none;
+    
+}
+h2{
+    text-align: center;
+}
+.elf-paragraph{
+    border:10px whitesmoke dotted;
+    padding:5px;
+    margin: 30px;
 }
