@@ -1,18 +1,18 @@
 let height = 5;
 
-if (height >= 5) {
+if (height >= 25) {
     console.log('We have a big one');
 }
 
-height = 3;
-if (height >= 5) {
+height = 35;
+if (height >= 25) {
     console.log('We have a big one');
 } else {
     console.log('We have a little one');
 }
 
 height = 5;
-if (height >= 5) {
+if (height >= 25) {
     console.log('We have a big one');
 } else if (height >= 0) {
     console.log('We have a little one');
