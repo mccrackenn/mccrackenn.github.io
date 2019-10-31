@@ -44,8 +44,8 @@ figure.border {
     border: black solid thin;
     padding: 5px;
 }    
-figure.right {
-    float:right;
+figure.left {
+    float:left;
 }
 
 footer {
@@ -58,4 +58,13 @@ footer {
 img.icon{
     height: 100px;
     width:100px;
+}
+
+.barley {
+    overflow: hidden;
+}
+
+section img {
+    height: 200px;
+    width: 400px;
 }
