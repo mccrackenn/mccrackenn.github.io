@@ -1,5 +1,9 @@
 body{
     background-color:rgb(161, 228, 224);
+   margin:auto;
+   max-width: 1200px;
+    
+    
 }
 
 header p {
@@ -62,9 +66,24 @@ img.icon{
 
 .barley {
     overflow: hidden;
+    font-size: 20px;
+    text-align: left;
 }
 
 section img {
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 600px;
+    border:5px rgb(42, 88, 11 ) solid;
+}
+.bottling-p {
+    border: 2px whitesmoke solid;
+    border-radius: 8px;
+    padding: 5px;
+    margin:10px;
+}
+.center{
+    background-color:azure;
+    border: 3px rgb(42, 88, 11) solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
 }
