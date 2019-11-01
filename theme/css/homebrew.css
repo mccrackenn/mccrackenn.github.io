@@ -62,6 +62,7 @@ footer {
 img.icon{
     height: 100px;
     width:100px;
+
 }
 
 .barley {
@@ -71,12 +72,14 @@ img.icon{
 }
 
 section img {
-    height: 300px;
-    width: 600px;
+    height: 500px;
+    width: 400px;
     border:5px rgb(42, 88, 11 ) solid;
+    image-orientation: from-image;
 }
+
 .bottling-p {
-    border: 2px whitesmoke solid;
+    border: 2px rgb(42, 88, 11) solid;
     border-radius: 8px;
     padding: 5px;
     margin:10px;
@@ -86,4 +89,16 @@ section img {
     border: 3px rgb(42, 88, 11) solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
+}
+
+figure.column {
+    float:left;
+    width: 33%;
+    padding: 5px;
+}
+
+section.row {
+    clear:both;
+    display:table;
+    content:"";
 }
