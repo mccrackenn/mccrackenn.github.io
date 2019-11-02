@@ -51,6 +51,9 @@ figure.border {
 figure.left {
     float:left;
 }
+figure.right {
+    float:right;
+}
 
 footer {
     background-color: sandybrown;
@@ -93,7 +96,7 @@ section img {
 
 figure.column {
     float:left;
-    width: 33%;
+    width: 40%;
     padding: 5px;
 }
 
@@ -101,4 +104,19 @@ section.row {
     clear:both;
     display:table;
     content:"";
+}
+
+.ingredients-menu{
+    line-height: 200%;
+    border: 9px seashell ridge;
+    width: 1000px;
+    padding: 5px;
+    margin:20px;
+    background-color:silver;
+}
+.ingredients-menu img{
+    height:250px;
+    width:250px;
+    position: relative;
+    border:5px azure ridge;
 }
