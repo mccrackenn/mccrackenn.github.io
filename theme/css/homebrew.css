@@ -2,8 +2,7 @@ body{
     background-color:rgb(161, 228, 224);
    margin:auto;
    max-width: 1200px;
-    
-    
+   line-height: 150%;
 }
 
 header p {
@@ -59,7 +58,8 @@ footer {
     background-color: sandybrown;
     text-align: left;
     border-radius: 8px;
-    height: 100px;
+    overflow: auto;
+    max-width: 1200px;
 }
 
 img.icon{
@@ -93,10 +93,13 @@ section img {
     padding: 8px;
     margin: -1px 0px 0px 0px;
 }
+.center h4 {
+    text-decoration:underline;
+}
 
 figure.column {
     float:left;
-    width: 40%;
+    width: 25%;
     padding: 5px;
 }
 
@@ -105,13 +108,17 @@ section.row {
     display:table;
     content:"";
 }
+section.row img {
+    height: 300px;
+    width: 200px;
+}
 
 .ingredients-menu{
     line-height: 200%;
     border: 9px seashell ridge;
-    width: 1000px;
+    width: 1175px;
     padding: 5px;
-    margin:20px;
+    
     background-color:silver;
 }
 .ingredients-menu img{
@@ -119,4 +126,16 @@ section.row {
     width:250px;
     position: relative;
     border:5px azure ridge;
+}
+figcaption {
+    max-width: 425px;
+    
+}
+aside{
+    float:right;
+    margin-right: 5px;
+    width:40%;
+    border:3px rgb(42, 88, 11) solid;
+    font-style: italic;
+    background-color: silver;
 }
