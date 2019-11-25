@@ -20,7 +20,6 @@ window.onload = () => {
         
     }
     functionObjectAction.onclick=function(){
-        
         const functionObject=new FunctionObject();
         functionObjectDisplay.textContent=functionObject.sayName();
     }
@@ -56,7 +55,7 @@ window.onload = () => {
 
     //Need to call new on it, constructor 
      const myObject = new FunctionObject();
-     
+     myObject.sayName().privateFunction();
 
     // const custClass = new CustomClass();
     // custClass.sayName();
