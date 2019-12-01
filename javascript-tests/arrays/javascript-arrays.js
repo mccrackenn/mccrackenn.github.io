@@ -3,7 +3,9 @@ window.onload = () => {
     const numbersActionButton=document.getElementById('numbers-action');
     const numbersDisplayList=document.getElementById('numbers-display');
     const languageActionButton=document.getElementById('languageAction');
-    const languageDisplayList=document.getElementById('languageDisplay')
+    const languageDisplayList=document.getElementById('languageDisplay');
+    const languagePopularityButton=document.getElementById('languagePopularityAction');
+    const languagePopularityList=document.getElementById('languagePopularityDisplay');
 
     const elfCode = {
         appendToList: (list, value ) => {
@@ -37,7 +39,7 @@ window.onload = () => {
         },
         {
             lang: 'Java',
-            rank: 3
+            rank: 5
         },
         {
             lang: 'C/CPP',
@@ -45,7 +47,7 @@ window.onload = () => {
         },
         {
             lang: 'PHP',
-            rank: 5
+            rank: 3
         },
         {
             lang: 'Swift',
@@ -61,6 +63,17 @@ window.onload = () => {
 
     arrays.numbers.sort((a,b) =>a-b);
     languageArray.language.sort();
+    popularLanguages.sort(compareRank) ;
+    console.log(popularLanguages[1].lang + "it is"+popularLanguages[1].rank);
+   
+
+    function compareRank(a,b) {
+        const rankA=a.rank;
+        const rankB=b.rank;
+
+        let comparison;
+        return rankA>rankB?comparison=1:comparison=-1;
+    }
     //for(let number of arrays.numbers) {
 
     //}
@@ -68,12 +81,18 @@ window.onload = () => {
     //arrays.numbers.forEach(number => console.log('Number: ' + number));
 
     numbersActionButton.onclick=function() {
+        numbersDisplayList.innerHTML="";
         arrays.numbers.forEach(number => elfCode.appendToList(numbersDisplayList,number))
-        //elfCode.appendToList(numbersDisplayList, number);
     }
+    
     languageActionButton.onclick=function (){
+        languageDisplayList.innerHTML="";
         languageArray.language.forEach(thing => elfCode.appendToList(languageDisplayList, thing))
     }
 
-
+    languagePopularityButton.onclick=function() {
+        languagePopularityList.innerHTML="";
+        popularLanguages.forEach(language =>elfCode.appendToList
+            (languagePopularityList,language.lang +": "+language.rank));
+    }
 }
