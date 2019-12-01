@@ -28,3 +28,8 @@ body{
 h2{
     text-decoration: underline;
 }
+footer {
+    clear: both;
+    background-color: chartreuse;
+    border-radius: 8px;
+}
