@@ -21,6 +21,17 @@ div {
 body{
     background-color: cornflowerblue;
 }
+header {
+    background-color: silver;
+    
+    
+    height: 100px;
+}
+.center {
+    text-align: center;
+    padding:20px;
+}
+
 .choices {
     font-size: 20px;
     font-family:cursive ;

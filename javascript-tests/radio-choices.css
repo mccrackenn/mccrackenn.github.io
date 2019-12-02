@@ -1,0 +1,23 @@
+body{
+    background-color: lightsteelblue;
+}
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+} 
+.redBackground {
+    background-color: red;
+}
+
+.yellowBackground {
+    background-color:yellow;
+}       
+.purpleBackground{
+    background-color: purple;
+}
+footer {
+    background-color: pink;
+}
