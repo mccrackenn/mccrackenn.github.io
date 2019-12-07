@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="../images/favicon.png" type="favicon">
-    <link rel="stylesheet" href="css/homebrew.css">
+    <link rel="stylesheet" href="css/homebrew.css" id="default">
+    <link rel="alternate stylesheet" href="css/homebrew-two.css" id="basic">
     <title>What's In A Beer</title>
+    <script src="change-css.js"></script>
 </head>
 
 <body>
@@ -37,6 +39,26 @@
                 <li><a href="#water">Water</a></li>
             </ul>
         </nav>
+        <aside>
+            <section id="thisSection">
+                <fieldset>
+                    <legend>Change Color Style Here!</legend>
+                    <form>
+                        <input type="radio" id="firstStyle" name="sorter" value="First" checked>
+                        <label for="firstStyle">First Style</label>
+
+                        <input type="radio" id="secondStyle" name="sorter" value="Second">
+                        <label for="secondStyle">Second Style</label>
+
+
+                        <div>
+                            <input class="btn-padding" type="submit" value="Submit">
+                        </div>
+                    </form>
+
+                </fieldset>
+            </section>
+        </aside>
 
         <nav class="four-ingridients">
             <ol>

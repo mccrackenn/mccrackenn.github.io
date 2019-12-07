@@ -7,7 +7,6 @@ h1 {
     font-size: 55px;
 }    
 
-
 h2 {
     color: green;
     font-size: 20px;
@@ -79,6 +78,12 @@ img.brew{
 img {
     border: 5px solid black;
 }
-p.beer pic{
-    position: top;
+
+aside{
+    float:right;
+    margin-right: 5px;
+    width:40%;
+    border:3px rgb(230, 238, 240) solid;
+    font-style: italic;
+    background-color: rgb(197, 235, 245);
 }

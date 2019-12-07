@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home Brew</title>
-    <link rel="stylesheet" href="css/homebrew.css">
+    <link rel="stylesheet" href="css/homebrew.css" id="default">
+    <link rel="alternate stylesheet" href="css/homebrew-two.css" id="basic">
     <link rel="shortcut icon" href="../images/favicon.png" type="favicon">
+    <script src="change-css.js"></script>
 </head>
 
 <body>
@@ -45,7 +47,27 @@
         </h3>
         <article>
             <aside>There is much reward in brewing and drinking your own brew. Or watching a friend or family member
-                enjoy your brew.</aside>
+                enjoy your brew.
+                <section id="thisSection">
+                    <fieldset>
+                        <legend>Change Color Style Here!</legend>
+                        <form>
+                            <input type="radio" id="firstStyle" name="sorter" value="First" checked>
+                            <label for="firstStyle">First Style</label>
+
+                            <input type="radio" id="secondStyle" name="sorter" value="Second">
+                            <label for="secondStyle">Second Style</label>
+
+
+                            <div>
+                                <input class="btn-padding" type="submit" value="Submit">
+                            </div>
+                        </form>
+
+                    </fieldset>
+                </section>
+            </aside>
+
             <figure>
                 <img src="./images/beers-in-row.jpg" alt="Picture of Beers in Pint Glasses">
                 <figcaption>With home brewing you can brew almost any type or style of beer.</figcaption>

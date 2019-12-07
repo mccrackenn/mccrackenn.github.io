@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(161, 228, 224);
+    background-color:rgb(164, 250, 131);
    margin:auto;
    max-width: 1200px;
    line-height: 150%;
@@ -21,7 +21,7 @@ header p {
 }
 nav {        
     background-color:azure;
-    border: 3px rgb(42, 88, 11) solid;
+    border: 3px rgb(73, 184, 110) solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
 }
@@ -43,7 +43,7 @@ li a{
 }
 
 figure.border {
-    background-color: lightslategray;
+    background-color: rgb(7, 111, 214);
     border: black solid thin;
     padding: 5px;
 }    
@@ -55,7 +55,7 @@ figure.right {
 }
 
 footer {
-    background-color: sandybrown;
+    background-color: rgb(12, 189, 21);
     text-align: left;
     border-radius: 8px;
     overflow: auto;
@@ -74,12 +74,13 @@ img.icon{
     overflow: hidden;
     font-size: 20px;
     text-align: left;
+    background-color: rgb(73, 151, 112);
 }
 
 section img {
     height: 500px;
     width: 400px;
-    border:5px rgb(42, 88, 11 ) solid;
+    border:5px rgb(116, 204, 16) solid;
     image-orientation: from-image;
 }
 
@@ -90,7 +91,7 @@ section img {
     margin:10px;
 }
 .center{
-    background-color:rgb(236, 245, 247);
+    background-color:azure;
     border: 3px rgb(42, 88, 11) solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
@@ -137,7 +138,16 @@ aside{
     float:right;
     margin-right: 5px;
     width:40%;
-    border:3px rgb(42, 88, 11) solid;
+    border:3px rgb(57, 133, 6) solid;
     font-style: italic;
-    background-color: silver;
+    background-color: rgb(83, 245, 170);
 }
+ h1 {
+     color:forestgreen;
+ }
+ section.clear{
+    clear: both;
+    overflow: hidden;
+ }
+
+
